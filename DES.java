@@ -11,7 +11,7 @@ public class DES {
 		try
 		{
 	
-    	// Define message (cleartext) to be encrypted
+    		// Define message (cleartext) to be encrypted
 		byte[] clearText = "Hello Crypto World".getBytes("UTF-8");
 		System.out.println("Cleartext: " + new String(clearText));
 			
