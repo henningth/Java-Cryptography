@@ -12,7 +12,6 @@ public class DES {
 		{
 	
     	// Define message (cleartext) to be encrypted
-		//String clearText = new String("Hello World");
 		byte[] clearText = "Hello Crypto World".getBytes("UTF-8");
 		System.out.println("Cleartext: " + new String(clearText));
 			
@@ -31,17 +30,13 @@ public class DES {
 		
 		// Encrypt (map to ciphertext)
 		byte[] cipherText = cipher.doFinal(clearText);
-		
-		// Display encrypted text
 		System.out.println("Ciphertext: " + new String(cipherText));
 		
 		// Initialize cipher to decryption mode
 		cipher.init(Cipher.DECRYPT_MODE, secretKey, cipher.getParameters());
 		
 		// Decrypt (map to cleartext)
-		byte[] decryptedText = cipher.doFinal(cipherText);
-		
-		// Display decrypted text
+		byte[] decryptedText = cipher.doFinal(cipherText);		
 		System.out.println("Decrypted text: " + new String(decryptedText));
 		
 		} catch(Exception ex)
