@@ -1,4 +1,4 @@
-// This program encrypts and decrypts a text using AES.
+// This program encrypts and decrypts a text using DES.
 import java.security.Key;
 
 import javax.crypto.Cipher;
