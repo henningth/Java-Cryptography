@@ -13,4 +13,4 @@ Security and cryptography examples in Java.
 - ```DSA.java```: Signing and verifying a message using [Digital Signature Algorithm (DSA)](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm).
 
 **Hash Functions:**
-- ```HashingTextString.java```: Computes either the MD5, SHA-1 or SHA-256 hash of a user-supplied input string.
+- ```HashingTextString.java```: Computes either the [MD5](https://en.wikipedia.org/wiki/MD5), [SHA-1](https://en.wikipedia.org/wiki/SHA-1) or [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash of a user-supplied input string.
