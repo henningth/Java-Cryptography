@@ -14,3 +14,4 @@ Security and cryptography examples in Java.
 
 **Hash Functions:**
 - ```HashingTextString.java```: Computes either the [MD5](https://en.wikipedia.org/wiki/MD5), [SHA-1](https://en.wikipedia.org/wiki/SHA-1) or [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash of a user-supplied input string.
+- ```HashingSalt.java```: Given a password chosen by the user, generates a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) of equal length and concatenates it to the password. Then computer the SHA-256 hash of this concatenated string.
